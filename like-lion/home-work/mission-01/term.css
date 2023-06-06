@@ -1,0 +1,11 @@
+
+
+ul li {
+    
+    padding: 5px;
+    background: url("./images/validation_icon.png") no-repeat;
+    list-style-type: none;
+    padding-left: 20px;
+    border: 1px solid gray;
+   
+}
