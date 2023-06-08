@@ -1,0 +1,64 @@
+.container {
+    width: 285px;
+    height: 200px;
+    background: linear-gradient(90deg, #ed552f 0%, #e8852e 100%);
+    border-radius: 5px;
+  }
+  
+  form {
+    padding-top: 36px;
+  }
+  
+  fieldset {
+    border-radius: 5px;
+    background: white;
+  }
+  
+  ul {
+    list-style: none;
+    font-size: 0.7rem;
+  }
+  
+  legend {
+    position: relative;
+    top: -18px;
+  }
+  
+  .formBox {
+    padding: 0;
+    position: relative;
+  }
+  
+  .formInput:first-child {
+    margin-bottom: 16px;
+  }
+  
+  .formInputLabel {
+    display: inline-block;
+    width: 50px;
+  }
+  
+  input {
+    width: 90px;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+  
+  .button {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(90deg, #ed552f 0%, #e8852e 100%);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .subBox {
+    border-top: 1px solid gray;
+    padding: 12px 0;
+  }
+  
+  .subBoxButton {
+    display: inline;
+  }
