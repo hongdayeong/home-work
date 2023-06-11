@@ -1,0 +1,38 @@
+.wrap {
+    width: 200px;
+    height: 100px;
+    background: lightgray;
+    border-radius: 10px;
+    transition-property: all 300ms 0s ease;
+
+
+}
+.wrap:hover {
+    height: 250px;
+
+}
+
+h1 {
+    font-size: large;
+}
+
+ul {
+    width: 120px;
+    height: 40px;
+    background: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    overflow: hidden;
+
+}
+
+ul:hover {
+    height: 200px;
+
+}
+
+ul li {
+    margin-top: 15PX;
+    list-style: none;
+    text-align: left;
+}
