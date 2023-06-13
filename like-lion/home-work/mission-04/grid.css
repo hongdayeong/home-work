@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    }
+
+    
+    .news {
+      width: 400px;
+      border: 5px solid blue;
+      border-radius: 10px;
+      display: grid;
+      grid-template-rows: 50px 10px 150px;
+      grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
+      grid-template-areas:
+        "h3 . . . . . . add-more"
+        "blank blank blank blank blank blank blank blank"
+        "img-box img-box renewal renewal renewal renewal renewal renewal";
+    }
+    
+    .news-content {
+      padding-top: 12px;
+      grid-area: news-content;
+      
+    }
+    
+    .blank {
+      grid-area: blank;
+    }
+    
+    h3 {
+      grid-area: h3;
+      font-size: medium;
+      color: orange;
+     
+    }
+    
+    .add-more {
+      grid-area: add-more;
+      font-size: medium;
+      
+    }
+    
+    .img-box {
+      grid-area: img-box;
+      
+    
+    }
+    
+    .renewal-box {
+      margin-left: 60px;
+      font-size: 14px;
+      grid-area: renewal;
+    }
+    
