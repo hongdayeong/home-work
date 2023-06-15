@@ -1,0 +1,52 @@
+
+.site-wrap  {
+    width: 200px;
+    height: 150px;
+    background: linear-gradient(to bottom, #cccccc, #eeeeee);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 15px;
+
+}
+
+.another-color {
+    color: orange;
+    margin-left: 5px;
+}
+
+.new-more {
+    margin-left: 60px;
+   
+
+}
+.sprite {
+    background: url(./images/rank.jpg) no-repeat;
+    background-position: 180px 50px;
+}
+.site-list li {
+    counter-increment: number;
+    list-style: none;
+    margin-right: 20px;
+    font-size: small;
+    font-weight: 500;
+    margin: 7px 0;
+    padding-left: -100px;
+}
+   
+
+
+.site-list li::before {
+    content: counter(number);
+    padding: 1px 3px;
+    background : lightgray;
+    border-radius: 2px;
+    display: inline-block;
+    width: 10px;
+    color: #fff;
+    margin: 0 10px 0 0;
+
+    
+}
